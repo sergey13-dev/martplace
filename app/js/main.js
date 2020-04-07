@@ -9,11 +9,7 @@ $(function () {
     });
 
 
-
-
-
-
-    //var mixer = mixitup('');
+    var mixer = mixitup('.products__inner-box');
 
 
 });
