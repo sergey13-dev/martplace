@@ -8,6 +8,30 @@ html {
     box-sizing: inherit;
 }
 
+
+// footer прижат к низу 
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+// footer прижат к низу 
+
+
 ul,
 li {
     margin: 0;
@@ -30,12 +54,14 @@ body {
 
 a {
     text-decoration: none;
+    outline: none;
 }
 
 .title {
     font-size: 30px;
     line-height: 35px;
     padding-left: 30px;
+    font-weight: 400;
     color: #000;
 }
 
@@ -47,4 +73,89 @@ a {
 
 button {
     outline: none;
+}
+
+
+.rate-star {
+    display: inline-block;
+
+    .jq-ry-group-wrapper {
+        svg:last-child {
+            polygon {
+                display: none;
+            }
+
+            background-image: url("../images/star.svg");
+            width: 12px;
+            height: 12px;
+        }
+    }
+}
+
+.rate-star-null {
+    margin-right: 110px;
+}
+
+.select2-container {
+    border: none;
+    background: none;
+}
+
+.select2-container .select2-choice {
+    height: 21px;
+    line-height: 1;
+    background-image: none;
+    border: none;
+    background-color: #fff;
+    outline: none;
+}
+
+.select2-container .select2-choice .select2-arrow {
+    right: -20px;
+    border-left: none;
+}
+
+.select2-container .select2-choice>.select2-chosen {
+    margin-right: 0;
+    padding-right: 25px;
+}
+
+.select2-search {
+    input {
+        display: none;
+        outline: none;
+    }
+}
+
+.yellow {
+    color: #feb71d;
+}
+
+.aqua {
+    color: #58c9e9;
+}
+
+.green {
+    color: #77de51;
+}
+
+.red {
+    color: #ff6a6d;
+}
+
+.fiolet {
+    color: #7f4ec2;
+}
+
+.blue {
+    color: #0674ec;
+}
+
+.button-center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bell {
+    background-color: red;
 }
