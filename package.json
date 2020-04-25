@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "Select2": "^3.5.7",
+    "animate.css": "^3.7.2",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
@@ -24,6 +25,7 @@
     "mixitup": "^3.3.1",
     "normalize.css": "^8.0.1",
     "rateyo": "^2.3.5",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "wow.js": "^1.2.2"
   }
 }

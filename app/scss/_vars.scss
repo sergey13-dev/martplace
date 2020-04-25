@@ -19,3 +19,28 @@ $color-icons-green: #77de51;
 $color-icons-red: #ff6a6d;
 
 $color-footer-text: #ababab;
+
+
+@mixin font300 {
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 300;
+}
+
+@mixin font400 {
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 400;
+}
+
+.category {
+    position: relative;
+
+    &::before {
+        font-family: 'icomoon';
+        position: absolute;
+        color: $color-fiolet;
+        width: 17px;
+        height: 17px;
+        left: 13px;
+        top: -6px;
+    }
+}

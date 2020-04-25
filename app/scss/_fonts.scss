@@ -44,8 +44,6 @@
 }
 
 
-
-
 @font-face {
     font-family: 'icomoon';
     src: url('../fonts/icomoon.eot?afobd4');
@@ -58,10 +56,6 @@
     font-display: block;
 }
 
-
-
-
-
 @font-face {
     font-family: 'icomoon';
     src: url('../fonts/social/icomoon.eot?w0hw00');
@@ -73,19 +67,6 @@
     font-style: normal;
     font-display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 [class^="icon-"],
 [class*=" icon-"] {
@@ -103,62 +84,8 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-message-circle:before {
-    content: "\e900";
-}
-
-.icon-document-file-psd:before {
-    content: "\e901";
-}
-
-.icon-envelope-o:before {
-    content: "\f003";
-}
-
-.icon-map-marker:before {
-    content: "\f041";
-}
-
-.icon-shopping-cart:before {
-    content: "\f07a";
-}
-
-.icon-heart-o:before {
-    content: "\f08a";
-}
-
-//fast 
-.icon-phone:before {
-    content: "\f095";
-}
-
-.icon-html5:before {
-    content: "\f13b";
-}
-
-.icon-wordpress:before {
-    content: "\f19a";
-}
-
-.icon-alarm:before {
-    content: "\e950";
-}
-
-//глаз 
-.icon-eye:before {
-    content: "\e9ce";
-}
-
-.icon-angle-down:before {
-    content: "\f107";
-}
-
-
-
-
 
 //social
-
 .icon-twitter:before {
     content: "\f099";
 }
@@ -189,10 +116,18 @@
 
 
 
+//category
+.icon-wordpress:before {
+    content: "\f19a";
+}
 
+.icon-document-file-psd:before {
+    content: "\e901";
+}
 
-
-
+.icon-html5:before {
+    content: "\f13b";
+}
 
 
 

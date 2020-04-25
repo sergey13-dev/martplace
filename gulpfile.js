@@ -62,6 +62,7 @@ gulp.task("script", function () {
         "node_modules/ion-rangeslider/js/ion.rangeSlider.js",
         "node_modules/Select2/select2.js",
         "node_modules/jquery-form-styler/dist/jquery.formstyler.js",
+        "node_modules/wow.js/dist/wow.js",
     ])
         .pipe(concat("libs.min.js"))
         .pipe(uglify())
@@ -83,9 +84,8 @@ gulp.task("style", function () {
         "node_modules/ion-rangeslider/css/ion.rangeSlider.css",
 
         "node_modules/jquery-form-styler/dist/jquery.formstyler.css",
-        "node_modules/jquery-form-styler/dist/jquery.formstyler.theme.css"
-
-        // "node_modules/animate.css/animate.css"
+        "node_modules/jquery-form-styler/dist/jquery.formstyler.theme.css",
+        "node_modules/animate.css/animate.css"
 
     ])
         .pipe(concat("libs.min.css"))

@@ -43,6 +43,7 @@ li {
 body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 
@@ -55,6 +56,8 @@ body {
 a {
     text-decoration: none;
     outline: none;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 .title {
@@ -78,17 +81,36 @@ button {
 
 .rate-star {
     display: inline-block;
+    fill: #ffc000;
 
     .jq-ry-group-wrapper {
-        svg:last-child {
-            polygon {
-                display: none;
-            }
 
-            background-image: url("../images/star.svg");
-            width: 12px;
-            height: 12px;
+        svg {
+            fill: #ffc000;
+            margin-right: 3px;
+            width: 15px;
+            height: 14px;
         }
+
+
+
+
+
+        // svg:last-child {
+
+
+        //     polygon {
+        //         display: none;
+        //     }
+
+        //     fill: #ffc000;
+
+        //     background-image: url("../images/star.svg");
+        //     width: 12px;
+        //     height: 12px;
+
+        // }
+
     }
 }
 
@@ -127,29 +149,29 @@ button {
     }
 }
 
-.yellow {
-    color: #feb71d;
-}
+// .yellow {
+//     color: #feb71d;
+// }
 
-.aqua {
-    color: #58c9e9;
-}
+// .aqua {
+//     color: #58c9e9;
+// }
 
-.green {
-    color: #77de51;
-}
+// .green {
+//     color: #77de51;
+// }
 
-.red {
-    color: #ff6a6d;
-}
+// .red {
+//     color: #ff6a6d;
+// }
 
-.fiolet {
-    color: #7f4ec2;
-}
+// .fiolet {
+//     color: #7f4ec2;
+// }
 
-.blue {
-    color: #0674ec;
-}
+// .blue {
+//     color: #0674ec;
+// }
 
 .button-center {
     text-align: center;
@@ -159,3 +181,50 @@ button {
 .bell {
     background-color: red;
 }
+
+
+
+
+
+
+
+// .breadcrumbs {
+//     &__inner {
+//         padding-top: 75px;
+//         padding-bottom: 29px;
+//     }
+
+//     &__list {
+
+//         li {
+//             display: inline;
+//             position: relative;
+
+//             &+li {
+//                 padding-left: 24px;
+
+//                 &::before {
+//                     content: "/";
+//                     position: absolute;
+//                     left: 8px;
+//                     color: #fff;
+//                 }
+//             }
+
+
+//             &:last-child {
+
+//                 a,
+//                 span {
+//                     color: #bfcad7;
+//                 }
+//             }
+//         }
+
+//         a {
+//             font-size: 15px;
+//             color: #fff;
+//         }
+//     }
+
+// }
